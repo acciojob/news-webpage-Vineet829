@@ -11,6 +11,8 @@ body{
 	width:100vw;
     height:4rem;
 	font-size:19px;
+	text-align:center;
+	padding:10px;
 }
 
 .main{
@@ -52,5 +54,8 @@ width:9rem;
 	justify-content:center;
 	align-items:center;
 	height:22rem;
+	padding:10px;
+	text-align:center;
+	
 }
 
