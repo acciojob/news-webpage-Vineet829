@@ -1,1 +1,56 @@
-/*  your css code here. If applicable */
+body{
+	background-color: #f5f5f5;
+}
+
+.header{
+	background-color:#011e29;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100vw;
+    height:4rem;
+	font-size:19px;
+}
+
+.main{
+	display:flex;
+	gap:5px;
+	justify-content:space-around
+	
+}
+.latest-news-section{
+background-color:white;
+ width:8rem;
+	flex-grow:1;
+	border-radius:15px;
+	height:9rem;
+text-align:center;
+}
+.latest-news-section h4{
+  margin-right:14px;
+}
+.main-article{
+flex-grow:2;
+	width:15rem;
+	background-color:white;
+	border-radius:15px;
+	height:12rem;
+ padding:8px;
+	text-align:center;
+}
+
+.pictorial-news-section{
+	
+width:9rem;
+	flex-grow:1;
+	background-color:white;
+	border-radius:15px;
+	display:flex;
+	flex-direction:column;
+	gap: 10px;
+	justify-content:center;
+	align-items:center;
+	height:22rem;
+}
+
